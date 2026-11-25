@@ -1,0 +1,121 @@
+{
+  "task_id": 4,
+  "title": "Оптимизация рекламной нагрузки для платформы видеоконтента",
+  "student_name": "Глазков Тимофей Владимирович",
+  "group": "БИ ОЗФО5-1",
+  "platform": "ВидеоСервис",
+  "active_users": 5000000,
+  "subscription_arpu_rub_month": 300,
+  "cpm_rub": 20,
+  "cpm_impressions": 1000,
+  "days_per_month": 30,
+  "videos_per_user_day": 10,
+  "cac_rub": 2000,
+  "lifetime_months": 24,
+  "analysis_horizon_months": 36,
+  "initial_investment_rub": 0,
+  "discount_rate_annual": 0.12,
+  "load_levels_impressions_day": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60
+  ],
+  "churn_rates": [
+    0.0,
+    0.0,
+    0.02,
+    0.05,
+    0.1,
+    0.18,
+    0.3
+  ],
+  "watch_time_minutes": [
+    120,
+    115,
+    110,
+    100,
+    90,
+    75,
+    60
+  ],
+  "sensitivity_cpm_rub": [
+    10,
+    20,
+    30
+  ],
+  "churn_sensitivity_delta": 0.2,
+  "monitoring": {
+    "watch_time_min_fraction_of_baseline": 0.9,
+    "churn_limit_fraction": 0.02,
+    "arpu_target_fraction_of_base": 1.0,
+    "nps_target": 50,
+    "ctr_target": 0.02
+  },
+  "segment_policy": {
+    "paid_max_fraction_of_optimal_load": 0.5,
+    "free_test_range_increment": 10,
+    "new_users_min_load": 5,
+    "new_users_max_load": 10,
+    "inactive_load": 0
+  },
+  "display": {
+    "rub_per_mln": 1000000,
+    "users_per_mln": 1000000,
+    "decimal_places": 1
+  },
+  "months_per_year": 12,
+  "cohort_model": {
+    "enabled": true,
+    "data_source_note": "Иллюстративный блок наблюдаемых когортных данных; заменить фактическими данными продукта.",
+    "months_observed": 6,
+    "loads_impressions_day": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "watch_time_minutes": [
+      120,
+      115,
+      110,
+      100,
+      90,
+      75,
+      60
+    ],
+    "ctr_rates": [
+      0.01,
+      0.012,
+      0.014,
+      0.016,
+      0.017,
+      0.018,
+      0.018
+    ],
+    "paid_conversion_rates": [
+      0.3,
+      0.3,
+      0.29,
+      0.27,
+      0.24,
+      0.2,
+      0.15
+    ],
+    "paid_arpu_rub_month": [
+      300,
+      300,
+      300,
+      300,
+      300,
+      300,
+      300
+    ]
+  }
+}
